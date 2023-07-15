@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="pic.png" type="image/svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" ></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body  id="top" class="dark_theme">
+    <header class="header" data-header>
+    
+   <nav class="navbar" data-navbar>
+            <ul class="navbar-list">
+              <li>
+                <a href="#home" class="navbar-link">Home</a>
+              </li>
+  
+              <li>
+                <a href="#about" class="navbar-link">About</a>
+              </li>
+  
+              <li>
+                <a href="#skills" class="navbar-link">Skills</a>
+              </li>
+
+              <li>
+                <a href="#portfolio" class="navbar-link">Projects</a>
+              </li>
+  
+              <li>
+                <a href="#contact" class="navbar-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+      </header>
+
+      <main>
+        <article class="container">
+          <!-- 
+          - #HERO
+        -->
+  
+          <section class="hero" id="home">
+            <figure class="hero-banner">
+              <picture>
+                <source srcset="bbb.jpg" media="(min-width: 768px)" />
+                <source
+                  srcset="hero-banner-md.png"
+                  media="(min-width: 500px)"
+                />
+                <img
+                  src="img123.jpg"
+                  class="w-100"
+                />
+              </picture>
+            </figure>
+  
+            <div class="hero-content">
+              <h2 class="h2 hero-title">Hi ! I'm POORANI</h2>
+              <h2 class="h2 hero-title" style="font-size: 40px;">Full Stack Developer</h2>
+  
+              <a href="#contact" class="btn btn-primary">Let's Connect</a>
+            </div>
+  
+            <ul class="hero-social-list">
+              <li>
+                <a href="mailto:tpoorani2002@gmail.com?subject=Hello" class="hero-social-link">
+                  <ion-icon name="mail-outline"></ion-icon>
+  
+                  <div class="tooltip">Email</div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="https://github.com/Poorani-27" class="hero-social-link">
+                  <ion-icon name="logo-github"></ion-icon>
+  
+                  <div class="tooltip">GitHub</div>
+                </a>
+              </li>
+  
+              <li>
+                <a href="https://www.linkedin.com/in/poorani-792a50223/" class="hero-social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+  
+                  <div class="tooltip">Linkedin</div>
+                </a>
+              </li>
+            </ul>
+  
+            <a href="#stats" class="scroll-down">Scroll</a>
+          </section>
+
+           <!-- 
+        - #ABOUT
+      -->
+
+        <section class="about" id="about">
+            <figure class="about-banner">
+              <img
+                src="pic.png"
+                alt="A man in a alice blue shirt with a thinking expression"
+                class="w-100"
+              />
+            </figure>
+  
+            <div class="about-content section-content">
+              <p class="section-subtitle">About me</p>
+  
+              <h2 class="h3 section-title">
+                Passionate about continuous improvement
+              </h2>
+  
+              <p class="section-text">
+                
+                 Hi, I'm POORANI, a passionate and dedicated junior Full Stack Developer specializing in the MERN (MongoDB, Express.js, React.js, Node.js) stack. <br>With a strong foundation in web development and a keen interest in building dynamic and responsive applications, I strive to create high-quality software solutions that deliver a seamless user experience.Also  I am experienced in version control system like Git,
+                 enabling seamless collaboration with team members. <br />
+                 Detail-oriented and adept at problem-solving, with a strong ability to
+                 work in collaborative environments. Committed to continuous learning and
+                 keeping up with the latest industry trends and technologies.
+               </p>
+            
+              </p>
+  
+              <div class="btn-group">
+                <a href="#contact"> <button class="btn btn-secondary">Hire me</button></a>
+  
+                <a href="resume.htm" target="_blank"><button class="btn btn-primary">
+                  Resume
+                </button></a>
+              </div>
+            </div>
+          </section>
+
+
+
+           <!-- 
+        - #SKILLS
+      -->
+
+        <section class="skills" id="skills">
+            <div class="skills-content section-content">
+              <p class="section-subtitle">My skills</p>
+  
+              <h2 class="h3 section-title">
+                What My Programming Skills Included?
+              </h2>
+  
+              <p class="section-text">
+            
+As a MERN stack developer, I possess a comprehensive skillset in frontend and backend development, along with the necessary frameworks and tools. On the frontend, I excel in HTML5, CSS3, and JavaScript, leveraging the power of React.js to build dynamic and responsive user interfaces.On the backend, I have expertise in Node.js and Express.js, developing robust APIs and handling server-side logic. With MongoDB, I design efficient database schemas and implement RESTful APIs.
+              </p>
+  
+             
+            </div>
+  
+            <div class="skills-box" data-skills-box>
+              
+              <ul class="skills-list">
+                <li>
+                  <div class="skill-card">
+                    <div class="tooltip">HTML5</div>
+  
+                    <div class="card-icon">
+                      <img src="html5.png" alt="HTML5 logo" />
+                    </div>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="skill-card">
+                    <div class="tooltip">CSS3</div>
+  
+                    <div class="card-icon">
+                      <img src="css3.png" alt="CSS3 logo" />
+                    </div>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="skill-card">
+                    <div class="tooltip">JavaScript</div>
+  
+                    <div class="card-icon">
+                      <img
+                        src="javascript.png"
+                        alt="JavaScript logo"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-card">
+                    <div class="tooltip">Bootstrap</div>
+  
+                    <div class="card-icon">
+                      <img
+                        src="bootstrap.png"
+                        alt="Bootstrap logo"
+                      />
+                    </div>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="skill-card">
+                    <div class="tooltip">React</div>
+  
+                    <div class="card-icon">
+                      <img src="react.png" alt="React logo" />
+                    </div>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="skill-card">
+                    <div class="tooltip">nodejs</div>
+  
+                    <div class="card-icon">
+                      <img
+                        src="node.png"
+                        alt="nodejs logo" width="48px" height="48px"
+                      />
+                    </div>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="skill-card">
+                    <div class="tooltip">Express .js</div>
+  
+                    <div class="card-icon">
+                      <img src="express.png" alt="expressjs logo"  width="48px" height="48px"/>
+                    </div>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="skill-card">
+                    <div class="tooltip">MongoDB</div>
+  
+                    <div class="card-icon">
+                      <img src="mongo.png" alt="mongoDB logo"  width="48px" height="48px"/>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+  <!-- > Tools </-->
+              
+            </div>
+            
+          </section>
+<div class="tool"><section class="skills" id="skills">
+  <div class="skills-content section-content">
+    <p class="section-subtitle">My Tools</p>
+
+    <h2 class="h3 section-title">
+      What My Programming Tools Included?
+    </h2>
+
+    <p class="section-text">
+  Tools includes a reliable code editor - Visual Studio Code.
+I am proficient in version control system - Git,package manager - npm and Webpack for bundling assests  and testing frameworks, ensuring high-quality code and efficient collaboration.
+    </p>
+
+   
+  </div>
+
+  <div class="skills-box" data-skills-box>
+    
+    <ul class="skills-list">
+      <li>
+        <div class="skill-card">
+          <div class="tooltip">VS Code</div>
+
+          <div class="card-icon">
+            <img src="vs-code.png" alt="vs codelogo" />
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="skill-card">
+          <div class="tooltip">Git</div>
+
+          <div class="card-icon">
+            <img src="git.png" alt="git logo" />
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="skill-card">
+          <div class="tooltip">npm</div>
+
+          <div class="card-icon">
+            <img
+              src="npm.png"
+              alt="npm logo"
+            />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="skill-card">
+          <div class="tooltip">Webpack</div>
+
+          <div class="card-icon">
+            <img
+              src="webpack.png"
+              alt="webpack logo"
+            />
+          </div>
+        </div>
+      </li>
+    </ul>
+    
+  </div>
+  
+ 
+</section></div>
+          
+           <!-- 
+        - #CONTACT
+      -->
+
+        <section class="contact" id="contact">
+            <div class="contact-content section-content">
+              <p class="section-subtitle">Contact</p>
+  
+              <h2 class="h3 section-title">
+                Send me a message to connect.
+              </h2>
+  
+              <p class="section-text">
+                 I am eager to connect with you and discuss any opportunities or inquiries you may have. I look forward to hearing from you soon!.
+              </p>
+  
+              <ul class="contact-list">
+                <li class="contact-list-item">
+                  <div class="contact-item-icon">
+                    <ion-icon name="location-outline"></ion-icon>
+                  </div>
+  
+                  <div class="wrapper">
+                    <h3 class="h4 contact-item-title">Address:</h3>
+  
+                    <address class="contact-info">
+                      No 2/17, Kumaramaptti Village, Koratti post, Tirupattur sub district, Tirupattur District - 635 602
+                    </address>
+                  </div>
+                </li>
+  
+                <li class="contact-list-item">
+                  <div class="contact-item-icon">
+                    <ion-icon name="call-outline"></ion-icon>
+                  </div>
+  
+                  <div class="wrapper">
+                    <h3 class="h4 contact-item-title">Phone:</h3>
+  
+                    <a href="tel:01234567789" class="contact-info"
+                      >(91) 8668080031</a
+                    >
+  
+                    <a href="tel:09765432200" class="contact-info"
+                      >(91) 8778481602</a
+                    >
+                  </div>
+                </li>
+  
+                <li class="contact-list-item">
+                  <div class="contact-item-icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                  </div>
+  
+                  <div class="wrapper">
+                    <h3 class="h4 contact-item-title">Email:</h3>
+  
+                    <a href="mailto:tpoorani2002@gmail.com" class="contact-info"
+                      >tpoorani2002@gmail.com</a
+                    >
+                  </div>
+                </li>
+  
+                <li>
+                  <ul class="contac-social-list">
+                    <li>
+                      <a href="https://github.com/Poorani-27" class="contact-social-link">
+                        <div class="tooltip">GitHub</div>
+  
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                    </li>
+  
+                    <li>
+                      <a href="https://wa.me/8668080031" class="contact-social-link">
+                        <div class="tooltip">Whatsapp</div>
+  
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                      </a>
+                    </li>
+  
+                    <li>
+                      <a href="https://www.linkedin.com/in/poorani-792a50223/" class="contact-social-link">
+                        <div class="tooltip">Linkedin</div>
+  
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+  
+            <form action="" class="contact-form">
+              <div class="form-wrapper">
+                <label for="name" class="form-label">Name</label>
+  
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    required
+                    placeholder="e.g Poorai Tamilvasan"
+                    class="input-field"
+                  />
+  
+                  <ion-icon name="person-circle"></ion-icon>
+                </div>
+              </div>
+  
+              <div class="form-wrapper">
+                <label for="email" class="form-label">Email</label>
+  
+                <div class="input-wrapper">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                    placeholder="e.g tpoorani2002@mail.com"
+                    class="input-field"
+                  />
+  
+                  <ion-icon name="mail"></ion-icon>
+                </div>
+              </div>
+  
+              <div class="form-wrapper">
+                <label for="phone" class="form-label">Phone</label>
+  
+                <div class="input-wrapper">
+                  <input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    required
+                    placeholder="Phone Number"
+                    class="input-field"
+                  />
+  
+                  <ion-icon name="call"></ion-icon>
+                </div>
+              </div>
+  
+              <div class="form-wrapper">
+                <label for="message" class="form-label">Message</label>
+  
+                <div class="input-wrapper">
+                  <textarea
+                    name="message"
+                    id="message"
+                    required
+                    placeholder="Write message..."
+                    class="input-field"
+                  ></textarea>
+  
+                  <ion-icon name="chatbubbles"></ion-icon>
+                </div>
+              </div>
+  
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </section>
+        </article>
+      </main>
+
+      <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+        <div class="container">
+          <p class="h1 logo">
+            <a href="#"><ion-icon name="caret-up-circle-outline"></ion-icon><span></span> </a>
+          </p>
+  
+          <p class="copyright">
+            &copy; 2023 <a href="#">Poorani</a> All rights reserved
+          </p>
+        </div>
+      </footer>
+  
+      <!-- 
+      - #GO TO TOP
+    -->
+  
+      <a href="#top" class="go-top" data-go-top title="Go to Top">
+        <ion-icon name="arrow-up-sharp"></ion-icon>
+      </a>
+  
+  </body>
+</html>
